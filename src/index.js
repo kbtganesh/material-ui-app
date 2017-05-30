@@ -31,7 +31,7 @@ ReactDOM.render(<Router>
 
 if ('serviceWorker' in navigator) {
 // window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/sww.js')
     .then((worker)=> {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', worker );

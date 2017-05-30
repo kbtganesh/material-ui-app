@@ -17,8 +17,9 @@ self.addEventListener('install', function onServiceWorkerInstall(event) {
     // We open a cache…
     caches.open(currentCache).then(function addResourceToCache(cache) {
       return cache.addAll([
-        './',
-        'favicon.png',
+        './index.html',
+        './favicon.ico',
+        
       ])
     })
   )
