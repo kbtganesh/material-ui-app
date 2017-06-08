@@ -4,20 +4,20 @@ var cacheName = 'v1';
 // Default files to always cache
 var cacheFiles = [
 	'./',
-	'./index.html',
-	'./favicon.ico',
-	'../src/index.js',
-	'../src/index.css',
-	'../src/App.js',
-	'../src/App.css',
-	'./src/pages/Main.js',
-	'./src/pages/MyTable.js',
-	'./src/pages/Setting.js'
+	'./index.html'
+	// './favicon.ico',
+	// '../src/index.js',
+	// '../src/index.css',
+	// '../src/App.js',
+	// '../src/App.css',
+	// './src/pages/Main.js',
+	// // './src/pages/MyTable.js',
+	// './src/pages/Setting.js'
 ]
 
 
 self.addEventListener('install', function(e) {
-    console.log('[ServiceWorker] Installed');
+    console.log('[ServiceWorkerrr] Installed');
 
     // e.waitUntil Delays the event until the Promise is resolved
     e.waitUntil(
